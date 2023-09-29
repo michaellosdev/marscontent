@@ -50,20 +50,7 @@ const Form = React.forwardRef<HTMLFormElement, FormProps>(
       resolver: zodResolver(schema),
     });
 
-    const onSubmit: SubmitHandler<FormValues> = async (data) => {
-      try {
-        const response = await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: JSON.stringify(data),
-        }).then(() => {
-          alert("Thank you for your submission!");
-        });
-        reset();
-      } catch (error) {
-        console.log(error);
-      }
-    };
+    const onSubmit: SubmitHandler<FormValues> = async (data) => {};
 
     return (
       <Card className="lg:w-[80%] w-[100%] h-[42rem]" elevation={2}>
