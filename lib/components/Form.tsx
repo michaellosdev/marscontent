@@ -52,12 +52,13 @@ const Form = React.forwardRef<HTMLFormElement, FormProps>(
 
     const onSubmit: SubmitHandler<FormValues> = async (data) => {
       try {
-        //this is for testing
-        // console.log("Full name: ", data.fullName);
-        // console.log("Email: ", data.email);
-        // console.log("Phone number: ", data.tel);
-        // console.log("Message: ", data.message);
-        // console.log(response);
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: JSON.stringify(data),
+        }).then(() => {
+          alert("Thank you for your submission!");
+        });
         reset();
       } catch (error) {
         console.log(error);
