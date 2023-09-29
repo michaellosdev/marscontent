@@ -5,7 +5,7 @@ import Footer from "@/lib/sections/Footer/Footer.home";
 import Contact from "@/lib/sections/Contact/Contact.home";
 import Videos from "@/lib/sections/Videos/Videos.home";
 import { Suspense } from "react";
-import Loading from "./loading";
+
 import LoskutechTag from "@/lib/sections/Loskutech.tag";
 
 export default function Home() {
@@ -15,8 +15,6 @@ export default function Home() {
       <About />
       <Contact />
       <Videos />
-      <Footer />
-      <LoskutechTag />
     </div>
   );
 }
