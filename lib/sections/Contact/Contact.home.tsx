@@ -50,7 +50,7 @@ export default function Contact(props: IAppProps) {
             type="p"
             className="text-gray-200  !font-light !font-source-sans"
           >
-            +1 (123) 456-7890
+            +1 (310) 350-6773
           </Typography>
         </AnimateOnView>
 

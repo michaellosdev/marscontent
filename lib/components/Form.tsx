@@ -82,9 +82,7 @@ const Form = React.forwardRef<HTMLFormElement, FormProps>(
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="h-[20%]   ">
-              <label htmlFor="full name" className="sr-only">
-                Name
-              </label>
+              <label className="sr-only">Name</label>
               <input
                 type="text"
                 className={`px-4 py-2 h-[65%]  rounded-[12px]   text-body border-2 ${
@@ -103,9 +101,7 @@ const Form = React.forwardRef<HTMLFormElement, FormProps>(
               ) : null}
             </div>
             <div className="h-[20%]">
-              <label htmlFor="email" className="sr-only">
-                Email
-              </label>
+              <label className="sr-only">Email</label>
               <input
                 type="text"
                 className={`px-4 py-2 h-[65%]  rounded-[12px]   text-body border-2 ${
@@ -124,9 +120,7 @@ const Form = React.forwardRef<HTMLFormElement, FormProps>(
               ) : null}
             </div>
             <div className="h-[20%]">
-              <label htmlFor="tel" className="sr-only">
-                Phone
-              </label>
+              <label className="sr-only">Phone</label>
               <input
                 type="number"
                 className={`px-4 py-2 h-[65%]  rounded-[12px]   text-body border-2 ${
@@ -145,9 +139,7 @@ const Form = React.forwardRef<HTMLFormElement, FormProps>(
               ) : null}
             </div>
             <div className="h-[40%]">
-              <label htmlFor="message" className="sr-only">
-                Message
-              </label>
+              <label className="sr-only">Message</label>
               <textarea
                 placeholder="Message"
                 className={`px-4 py-2 h-[80%]  rounded-[12px]   text-body border-2 ${
