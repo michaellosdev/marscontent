@@ -13,7 +13,7 @@ export default function Home() {
     <div className="h-fit">
       <Hero />
       <About />
-
+      <Contact />
       <Videos />
     </div>
   );

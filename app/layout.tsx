@@ -9,8 +9,9 @@ import LoskutechTag from "@/lib/sections/Loskutech.tag";
 import Contact from "@/lib/sections/Contact/Contact.home";
 
 export const metadata: Metadata = {
-  title: "MARS TEAM",
-  description: "MARS TEAM",
+  title: "MARS CONTENT | MEDIA PRODUCTION",
+  description:
+    "Turn your brand vision into reality with MARS Content. Experience unparalleled media production, strategic content planning, and data-driven marketing tailored for your success",
 };
 
 export default function RootLayout({
