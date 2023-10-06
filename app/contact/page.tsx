@@ -5,6 +5,7 @@ import { Typography } from "@/lib/components/Typography";
 import Container from "@/lib/components/Container";
 import { AnimateOnView } from "@/lib/utils/AnimateOnView/AnimateOnView";
 import StarryBackground from "@/lib/components/StarryBackground";
+import Contact from "@/lib/sections/Contact/Contact.home";
 
 export interface IAppProps {}
 
@@ -52,6 +53,7 @@ export default function ContactPage(props: IAppProps) {
           drop us a line.
         </Typography>
       </div>
+      <Contact />
     </div>
   );
 }

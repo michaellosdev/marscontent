@@ -37,7 +37,7 @@ export default function RootLayout({
           position="absolute"
         />
         {children}
-        <Contact />
+
         <Footer />
         <LoskutechTag />
       </body>

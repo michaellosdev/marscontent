@@ -12,6 +12,7 @@ import videoEditingIcon from "@/public/videoediting.png";
 import smmIcon from "@/public/smm.png";
 import contentIcon from "@/public/content.png";
 import targetedMarketingIcon from "@/public/targetedmarketing.png";
+import Contact from "@/lib/sections/Contact/Contact.home";
 
 export interface IAppProps {}
 
@@ -190,6 +191,7 @@ export default function ContactPage(props: IAppProps) {
           </Card>
         </AnimateOnView>
       </div>
+      <Contact />
     </div>
   );
 }

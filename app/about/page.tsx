@@ -16,7 +16,7 @@ export default function About(props: IAppProps) {
     <div className="h-fit">
       <HeroAbout />
       <AboutAbout />
-
+      <Contact />
       {/* <Videos /> */}
     </div>
   );
