@@ -13,7 +13,7 @@ import Link from "next/link";
 
 export interface IAppProps {}
 
-export default function HeroAbout(props: IAppProps) {
+export default function HeroPortfolio(props: IAppProps) {
   return (
     <Container
       className="  flex  justify-center items-center snap-start !h-fit pt-48 pb-24 relative"
@@ -34,7 +34,7 @@ export default function HeroAbout(props: IAppProps) {
             type="h1"
             className="text-white font-zian  !text-[2.9rem] md:!text-[8rem]     "
           >
-            ABOUT
+            PORTFOLIO
           </Typography>
         </AnimateOnView>
       </div>

@@ -6,6 +6,7 @@ import "@/lib/utils/AnimateOnView/animationStyles.css";
 import MouseFollower from "@/lib/components/MouseFollower";
 import Footer from "@/lib/sections/Footer/Footer.home";
 import LoskutechTag from "@/lib/sections/Loskutech.tag";
+import Contact from "@/lib/sections/Contact/Contact.home";
 
 export const metadata: Metadata = {
   title: "MARS TEAM",
@@ -36,6 +37,7 @@ export default function RootLayout({
           position="absolute"
         />
         {children}
+        <Contact />
         <Footer />
         <LoskutechTag />
       </body>

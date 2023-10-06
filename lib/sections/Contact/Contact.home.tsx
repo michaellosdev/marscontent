@@ -32,8 +32,8 @@ export default function Contact(props: IAppProps) {
       >
         <Typography
           variant="display"
-          type="h1"
-          className="text-gray-300 !text-[3rem] md:!text-7xl  mb-4 !font-source-sans !font-semibold"
+          type="h2"
+          className="text-gray-300 !text-h2  md:!text-7xl  mb-4 !font-source-sans !font-semibold"
         >
           Say hello!
         </Typography>

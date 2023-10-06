@@ -13,7 +13,13 @@ export interface IAppProps {}
 
 export default function AboutAbout(props: IAppProps) {
   return (
-    <div className="bg-primary flex flex-col  justify-center items-center h-fit py-16 pb-0   ">
+    <div
+      className="bg-primary flex flex-col  justify-center items-center h-fit py-16 pb-0   "
+      style={{
+        backgroundImage:
+          "linear-gradient(0deg, rgba(10,10,10,1) 0%,rgba(0,0,0,1) 100%)",
+      }}
+    >
       <AnimateOnView
         className="w-full h-fit lg:h-[1000px]  flex flex-col justify-between items-center "
         type="fadeInUp"
@@ -26,9 +32,9 @@ export default function AboutAbout(props: IAppProps) {
 
           <div className="text-gray-200  ">
             <Typography
-              variant="h3"
+              variant="body-large"
               type="h3"
-              className="!font-thin !font-source-sans !text-2xl lg:!text-4xl"
+              className="!font-thin !font-source-sans  lg:!text-2xl"
             >
               Welcome to <span className="font-zian !font-bold ">MARS</span>. In
               today{"'"}s digitally-driven world, the power of high-quality
@@ -62,9 +68,9 @@ export default function AboutAbout(props: IAppProps) {
 
           <div className="text-gray-200 my-16 ">
             <Typography
-              variant="h3"
+              variant="body-large"
               type="h3"
-              className="!font-thin !font-source-sans !text-2xl lg:!text-4xl text-left"
+              className="!font-thin !font-source-sans lg:!text-2xl text-left"
             >
               Whether you{"'"}re in the embryonic stages of a fresh startup or
               navigating the complex terrains of an established enterprise, we
@@ -133,9 +139,9 @@ export default function AboutAbout(props: IAppProps) {
             </div>
           </AnimateOnView>
           <Typography
-            variant="h3"
+            variant="body-large"
             type="h3"
-            className="!font-thin !font-source-sans !text-2xl lg:!text-4xl text-left text-white mb-16"
+            className="!font-thin !font-source-sans lg:!text-2xl text-left text-white mb-16"
           >
             So, if you{"'"}re ready to redefine your brand{"'"}s visual
             narrative and etch an indelible mark in the digital arena, let{" "}
