@@ -154,7 +154,7 @@ const Nav = React.forwardRef<HTMLDivElement, NavProps>(
             className={
               psb(
                 fill === "transparent"
-                  ? "bg-primary text-secondary" //if transparent, bg is primary
+                  ? "bg-primary text-white" //if transparent, bg is primary
                   : fill === "secondary"
                   ? "bg-secondary text-dark-gray"
                   : fill === "extra"
