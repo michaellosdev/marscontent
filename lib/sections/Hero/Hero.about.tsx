@@ -32,7 +32,7 @@ export default function HeroAbout(props: IAppProps) {
           <Typography
             variant="display"
             type="h1"
-            className="text-white font-zian  !text-[2.9rem] md:!text-[8rem]     "
+            className="text-white font-zian  !text-[44px] md:!text-[8rem]     "
           >
             ABOUT
           </Typography>
